@@ -86,7 +86,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 50%;
+    width: 55%;
     text-align: center;
     border-radius: 8px;
     font-family: var(--fonte-secundaria);
@@ -101,7 +101,6 @@ body{
 .apresentacao_botoes:hover{
     background-color: var(--cor-hover);
     color: var(--cor-terciaria);
-    width: 400px;
 }
 
 .apresentacao_imagem{
