@@ -145,3 +145,104 @@ https://www.alura.com.br/conteudo/sass-css-estilizando-site
 [Border](https://www.w3schools.com/css/css_border.asp)  
 [CSS Border](https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css)  
 [Houver](https://www.w3schools.com/CSSref/sel_hover.php)
+
+__Módulo 05__
+Declarando [variáveis](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) no CSS:   
+```css
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #A27B5C;
+    --cor-hover: #3F4E4F;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+/* Utilizando as variáveis*/
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+```
+
+### Variáveis
+
+#### Um armário cheio de gavetas!
+Imagine que você trabalhe em uma sala de arquivos, que possui um armário muito grande e cheio de gavetas. Todos os dias, pessoas trazem seus objetos para que você guarde em uma gaveta para eles e para isso, te entregam uma etiqueta com um nome que será colado nessa gaveta que armazenará o objeto da pessoa.
+
+Ana te entregou uma caneta e uma etiqueta com o nome: canetaDaAna, e você guardou a caneta dela em uma gaveta, onde colou a etiqueta. Ela escolheu o nome canetaDaAna, mas poderia ser qualquer outro nome e seu conteúdo poderia ser qualquer um também, como um livro, por exemplo, e não uma caneta.
+
+Quando Ana precisar da caneta, ela irá te chamar e pedir pela canetaDaAna, e você a entregará o conteúdo da gaveta, ou seja, a caneta.
+
+#### E como isso se relaciona com as variáveis?
+O armário de gavetas no exemplo acima representa a memória do computador. Quando criamos uma variável, estamos solicitando ao computador que reserve uma “gavetinha” em sua memória para que guarde algo que precisaremos usar futuramente, e fazemos isso atribuindo um nome de variável que poderemos chamar a qualquer momento e que retornará o conteúdo que guardamos dentro dela. Esse nome pode ser um nome qualquer, no entanto sempre que solicitado ele trará como resposta aquilo que você armazenou nele.
+
+#### O que são variáveis?
+Variáveis são elementos que permitem que valores sejam manipulados ao longo da execução de seu código, através da definição de um nome para armazenar um valor que será usado repetidas vezes. Essa definição do nome e do conteúdo que será contido nele é o que nós chamamos de declaração.
+
+Esse valor pode ser alterado ao longo do código, por isso o nome “váriavel”, exemplo:
+
+```css
+:root{
+     --tamanho-da-fonte:  24px;
+} 
+```
+
+Criamos no :root, ou seja, no escopo global de um código, uma variável que foi declarada com o nome __--tamanho-da-fonte__ e seu valor foi atribuído como __24px__. Toda vez que chamarmos pelo nome __--tamanho-da-fonte__, iremos obter como retorno o valor __24px__.
+
+Variáveis são utilizadas diariamente pelas pessoas desenvolvedoras para que consigam manipular e reutilizar valores em seu código e estão presentes nas mais diversas linguagens de programação, pois são elementos base ao criar qualquer código que tenha a mínima funcionalidade. Portanto, conforme você evoluir em seus conhecimentos no desenvolvimento é certo que irá lidar muito com variáveis.
+
+## Referências
+https://www.alura.com.br/artigos/css-guia-do-flexbox
+https://www.alura.com.br/conteudo/css-flexbox-layouts-responsivos
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.alura.com.br/artigos/tailwind-adicionando-fontes-customizadas
+https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css
+https://www.w3schools.com/Css/css_icons.asp
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Dealing_with_files
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Dealing_with_files
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Dealing_with_files
+https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox
+https://www.youtube.com/watch?v=6jMqjQhHoHw
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover
+https://www.w3schools.com/howto/howto_css_transition_hover.asp
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics
+https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/The_box_model
+https://www.freecodecamp.org/portuguese/news/manual-do-css-um-guia-pratico-de-css-para-desenvolvedores/
+https://www.creativosonline.org/pt/27-cabe%C3%A7alhos-e-rodap%C3%A9s-css-para-seu-blog-ou-site.html
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties
+https://www.desenvolvimentoparaweb.com/css/variaveis-css-guia-pratico/
+https://www.w3schools.com/css/css3_variables.asp
+https://www.alura.com.br/artigos/construa-css-magico-variaveis-nativas
+
+
+# HTML e CSS: trabalhando com responsividade e publicação de projetos
+
+__Módulo 01 e módulo 02__
+* [Medidas absolutas e medidas relativas](https://www.w3schools.com/cssref/css_units.php)
+* [Unidades de medida no CSS](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
+
+__Módulo 03__
+* [Média Queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+
+## [Git e GitHub](https://www.alura.com.br/artigos/o-que-e-git-github)
+O Git é uma ferramenta de controle de versão de arquivos, projetos ou códigos. Já o GitHub é uma aplicação ou site onde se guardam os projetos com os arquivos dentro.
+
+O Git é quem faz esse meio de campo entre a máquina local e o Github, o Git realiza as tarefas através de comandos, onde pode-se informar quais arquivos ou pastas serão enviadas para o GitHub.
+
+Podemos guardar projetos nele e ainda compartilhar com outras pessoas, podendo dar sugestões e oferecer ajuda em outros projetos.  
+[O que é Git e GitHub?](https://youtu.be/DqTITcMq68k?si=sn-lZTjpZe_rQRqK)
+[Como usar o Git e GitHub](https://youtu.be/UBAX-13g8OM?si=FGN0-CtoEAFpBWyT)
+
+## Readme e Repositórios
+O Repositório nada mais é que uma pasta do projeto que está salva na nuvem. No caso no GitHub, criam os repositório com nome do projeto e soubimos os arquivos para dentro desta pasta. Depois de criar o repositório e colocar os arquivos dentro dele, conseguimos criar e customizar o famoso arquivo Readme.md que é onde colocamos as especificações do projeto e falar mais sobre ele, assim outras pessoas que entrarem no repositório irão ver e entender o projeto, e quais ferramentas foram utilizadas para desenvolvê-lo.
+
+A página do arquivo [Readme.md](https://github.com/alura-cursos/readme-template) pode ser escrita utilizando o próprio HTML ou a linguagem de marcação [Markdown](https://www.alura.com.br/artigos/como-trabalhar-com-markdown), é mais comum utilizar markdown.
+
+Exemplos:
+https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/blob/master/README.md
+https://github.com/vanessametonini/aluramidi-curso/blob/master/README.md
+
+Fonte: Trechos copiados da explicação feita pela página [Alura](https://www.alura.com.br/) 
